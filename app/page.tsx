@@ -44,9 +44,9 @@ export default function Portfolio() {
             </h2>
             
             <p className="text-sky-800 leading-relaxed max-w-xl mb-6">
-              Computer Science student and CS7 Teaching Assistant with a passion for building clean, purposeful software.
-              Developed an interest in mobile app and web development, computational modelling and research. I enjoy exploring
-              how technology can be applied to solve real-world problems, always looking to expand my knowledge across different
+              A Computer Science student at NUST,Zimbabwe with a passion for building clean, purposeful software.
+              Developed an interest in mobile app and web development, computational modelling and research, exploring
+              how technology can be applied to solve real-world problems and always looking to expand my knowledge across different
               areas of computing. Currently serving as a CS7 Teaching Assistant at Emzini weCode, the same course that sparked my 
               journey in tech. Committed to continuous learning and helping others navigate their journey in tech.
             </p>
@@ -171,7 +171,7 @@ export default function Portfolio() {
             {[
               { label: "Coding" },
               { label: "Netball" },
-              { label: "Reading" },
+              { label: "Photography" },
               { label: "Researching" },
               {label: "Solitaire BlackSpider(4 Suit)"}
             ].map(({ label }) => (
