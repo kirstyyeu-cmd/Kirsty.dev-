@@ -52,9 +52,9 @@ export default function Portfolio() {
             </p>
 
             <div className="flex flex-wrap gap-4 text-sm text-sky-600">
-              <span> <a href="mailto:YOUREMAIL@gmail.com" className="hover:underline">kirstyyeu@gmail.com</a></span>
+              <span> <a href="mailto:kirstyyeu@gmail.com" className="hover:underline">kirstyyeu@gmail.com</a></span>
               <span> Masvingo, Zimbabwe</span>
-              <span><a href="www.linkedin.com/in/yeukai-k-45979a311" target="_blank" className="hover:underline">www.linkedin.com/in/yeukai-k-45979a311</a></span>
+              <span><a href="https://www.linkedin.com/in/yeukai-k-45979a311" target="_blank" className="hover:underline">https://www.linkedin.com/in/yeukai-k-45979a311</a></span>
               <span><a href="https://github.com/kirstyyeu-cmd" target="_blank" className="hover:underline">https://github.com/kirstyyeu-cmd</a></span>
 
             </div>
