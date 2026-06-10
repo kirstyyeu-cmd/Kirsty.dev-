@@ -1,4 +1,6 @@
 "use client";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { MdLocationOn } from "react-icons/md";
 
 export default function Portfolio() {
   return (
@@ -50,12 +52,12 @@ export default function Portfolio() {
               areas of computing. Currently serving as a CS7 Teaching Assistant at Emzini weCode, the same course that sparked my 
               journey in tech. Committed to continuous learning and helping others navigate their journey in tech.
             </p>
-
             <div className="flex flex-wrap gap-4 text-sm text-sky-600">
-              <span> <a href="mailto:kirstyyeu@gmail.com" className="hover:underline">kirstyyeu@gmail.com</a></span>
-              <span> Masvingo, Zimbabwe</span>
-              <span><a href="https://www.linkedin.com/in/yeukai-k-45979a311" target="_blank" className="hover:underline">https://www.linkedin.com/in/yeukai-k-45979a311</a></span>
-              <span><a href="https://github.com/kirstyyeu-cmd" target="_blank" className="hover:underline">https://github.com/kirstyyeu-cmd</a></span>
+
+             <a href="mailto:kirstyyeu@gmail.com" className="hover:underline">kirstyyeu@gmail.com</a>
+             <a href="https://www.linkedin.com/in/yeukai-k-45979a311" target="_blank" className="hover:underline">LinkedIn</a>
+             <a href="https://github.com/kirstyyeu-cmd" target="_blank" className="hover:underline">GitHub</a>
+             <span className="text-sky-800 leading-relaxed max-w-xl mb-6"></span>
 
             </div>
           </div>
@@ -120,12 +122,7 @@ export default function Portfolio() {
               tags={["Photograph Marketing"]}
               link="Not yet uploaded" 
             />
-            <ProjectCard
-              title="Portfolio Website"
-              description="Personal portfolio built with Next.js and Tailwind CSS, deployed on Vercel."
-              tags={["Next.js", "Tailwind CSS", "Vercel"]}
-              link="#"
-            />
+
             <ProjectCard
               title="UNDP Innovation Challenge 2026"
               description="Co-developed a ”Community Crisis Impact Reporting Tool” for real-time data synthesis"
